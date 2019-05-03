@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FootstepPluginSample.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{CF08BD59-F13C-4E8C-9331-7478A975F1A2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FootstepPluginSample.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FootstepPluginSampleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Build.FootstepPluginSample.bat" />
+    <None Include="..\..\desktop.ini" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{6D6795D2-6F46-4A3A-9E4D-A99C6729E4C3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{0921E911-9721-4958-ACC9-97948AEEA461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VestigiumPlugin">
+      <UniqueIdentifier>{1A366984-AEEA-4933-AB3C-26E78332B547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VestigiumPlugin\Source">
+      <UniqueIdentifier>{7981F39E-12C8-4BBE-BB0B-67E3DA7F83DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VestigiumPlugin\Source\VestigiumEditor">
+      <UniqueIdentifier>{3A3B54E8-E38B-4DAD-A70E-C4246D0D409D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\VestigiumEditor.Build.cs">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor</Filter>
+    </None>
+    <Filter Include="Plugins\VestigiumPlugin\Source\VestigiumEditor\Private">
+      <UniqueIdentifier>{DD513498-D0AA-4E43-B5D0-CC73DB726015}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\FootstepAssetFactory.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\FootstepAssetFactory.h">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\FootstepAssetTypeActions.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\FootstepAssetTypeActions.h">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\VestigiumEditor.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\VestigiumEditorStyle.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Private\VestigiumEditorStyle.h">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VestigiumPlugin\Source\VestigiumEditor\Public">
+      <UniqueIdentifier>{2462494D-1B7F-472E-AD82-E4DE543587B5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\VestigiumEditor\Public\VestigiumEditor.h">
+      <Filter>Plugins\VestigiumPlugin\Source\VestigiumEditor\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\VestigiumPlugin\Vestigium.uplugin">
+      <Filter>Plugins\VestigiumPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VestigiumPlugin\Resources">
+      <UniqueIdentifier>{6F176E21-3827-43F2-9589-16C64450D8F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VestigiumPlugin\Resources\FootstepDataAsset128.png">
+      <Filter>Plugins\VestigiumPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VestigiumPlugin\Resources\FootstepDataAsset16.png">
+      <Filter>Plugins\VestigiumPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VestigiumPlugin\Resources\FootstepDataAsset64.png">
+      <Filter>Plugins\VestigiumPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VestigiumPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VestigiumPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VestigiumPlugin\Source\Vestigium">
+      <UniqueIdentifier>{B7083DC6-7493-475B-9C93-E01311DAC1FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Vestigium.Build.cs">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium</Filter>
+    </None>
+    <Filter Include="Plugins\VestigiumPlugin\Source\Vestigium\Private">
+      <UniqueIdentifier>{9E5F5748-BE33-49B1-A8D2-17BBECACA0CA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Private\Footstep.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Private\FootstepData.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Private\FootTraceStatics.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Private\Vestigium.cpp">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\VestigiumPlugin\Source\Vestigium\Public">
+      <UniqueIdentifier>{7B669854-CD04-4864-BAA2-A73B5B6C0665}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Public\Footstep.h">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Public\FootstepData.h">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Public\FootTraceStatics.h">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VestigiumPlugin\Source\Vestigium\Public\Vestigium.h">
+      <Filter>Plugins\VestigiumPlugin\Source\Vestigium\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\FootstepPluginSample">
+      <UniqueIdentifier>{19D4F65A-9ADE-4CCA-A061-6C70278BF135}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FootstepPluginSample\FootstepPluginSample.Build.cs">
+      <Filter>Source\FootstepPluginSample</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FootstepPluginSample\FootstepPluginSample.cpp">
+      <Filter>Source\FootstepPluginSample</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FootstepPluginSample\FootstepPluginSample.h">
+      <Filter>Source\FootstepPluginSample</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

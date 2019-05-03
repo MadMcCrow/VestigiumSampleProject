@@ -1,0 +1,5 @@
+D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Source\FootstepPluginSample\FootstepPluginSample.Build.cs
+D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Plugins\VestigiumPlugin\Source\Vestigium\Vestigium.Build.cs
+D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Plugins\VestigiumPlugin\Source\VestigiumEditor\VestigiumEditor.Build.cs
+D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Source\FootstepPluginSample.Target.cs
+D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Source\FootstepPluginSampleEditor.Target.cs

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VestigiumEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Intermediate\Build\Win64\FootstepPluginSampleEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Plugins\VestigiumPlugin\Intermediate\Build\Win64\UE4Editor\Development\VestigiumEditor\Module.VestigiumEditor.cpp.obj"
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Plugins\VestigiumPlugin\Intermediate\Build\Win64\UE4Editor\Development\VestigiumEditor\Module.VestigiumEditor.gen.cpp.obj"
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Plugins\VestigiumPlugin\Intermediate\Build\Win64\UE4Editor\Development\VestigiumEditor\Default.rc2.res"
+/OUT:"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Plugins\VestigiumPlugin\Intermediate\Build\Win64\UE4Editor\Development\VestigiumEditor\UE4Editor-VestigiumEditor.lib"
+/INCLUDE:IMPLEMENT_MODULE_VestigiumEditor

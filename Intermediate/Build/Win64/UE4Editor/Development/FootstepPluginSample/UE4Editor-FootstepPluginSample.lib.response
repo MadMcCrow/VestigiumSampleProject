@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FootstepPluginSample.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Intermediate\Build\Win64\FootstepPluginSampleEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Intermediate\Build\Win64\UE4Editor\Development\FootstepPluginSample\FootstepPluginSample.cpp.obj"
+"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Intermediate\Build\Win64\UE4Editor\Development\FootstepPluginSample\Default.rc2.res"
+/OUT:"D:\_PROJETS\PERARD-GAYOT\FootstepPluginSample\Intermediate\Build\Win64\UE4Editor\Development\FootstepPluginSample\UE4Editor-FootstepPluginSample.lib"
+/INCLUDE:IMPLEMENT_MODULE_FootstepPluginSample
